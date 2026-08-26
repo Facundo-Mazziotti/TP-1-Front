@@ -16,7 +16,8 @@ body{
 }
 .cancha{
     height: 90vh;
-    padding: .3rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
     aspect-ratio: 1/1;
     background-color: darkgreen;
     border: .3rem solid white;
@@ -28,8 +29,7 @@ body{
 .zona{
     width: 100%;
     height: 15vh;
-    border: .2rem dashed lime;
-
+    background-color: rgb(17, 116, 17);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -38,9 +38,10 @@ body{
 
 .jugador{
     display: flex;
-    background-color: lightgreen;
+    background-color: rgb(62, 148, 148);
     justify-content: center;
     align-items: center;
     padding: .5rem;
+    border: solid .1rem white;
     
 }
