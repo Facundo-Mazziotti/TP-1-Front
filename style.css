@@ -24,7 +24,7 @@ body{
     border-radius: .5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .zona{
     width: 100%;
@@ -41,7 +41,47 @@ body{
     background-color: rgb(62, 148, 148);
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     padding: .5rem;
     border: solid .1rem white;
-    
+    border-radius: 1rem;
+
+    .dorsal{
+        font-size: 1.5rem;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        aspect-ratio: 1/1;
+        padding: .3rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        margin-bottom: .5rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: relative;
+    }
+
+    .posicion{
+        font-size: .8rem;
+        font-style: italic;
+        color: rgb(90, 88, 88);
+        padding: .2rem;
+    }
+
+
+    .balón{
+        scale: .75;
+        position: absolute;
+        top: 40%;
+        right: 50%;
+    }
+}
+
+.arquero{
+    background-color: rgb(90, 23, 248);
+    border: gold .2rem solid;
 }
